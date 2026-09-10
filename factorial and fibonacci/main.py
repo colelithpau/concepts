@@ -6,9 +6,6 @@ This program displays a menu-driven interface allowing the user to:
 1. Compute the factorial of a positive integer (using recursion).
 2. Generate a Fibonacci series up to a specified number of terms (using recursion).
 
-Author: [Your Name]
-Date: [Date]
-AI Use: Code structure and recursion logic were developed with the assistance of an AI tool.
 """
 
 def factorial_recursive(n: int) -> int:
@@ -28,7 +25,7 @@ def factorial_notation_string(n: int) -> str:
     if n == 0 or n == 1:
         return f"{n}! = {n}"
     terms = " × ".join(str(i) for i in range(n, 0, -1))
-    return f"{n}! = {terms}"
+        return f"{n}! = {terms}"
 
 
 def fibonacci_recursive(n: int, memo: dict | None = None) -> int:
@@ -46,7 +43,7 @@ def fibonacci_recursive(n: int, memo: dict | None = None) -> int:
     if n == 1:
         return 1
     memo[n] = fibonacci_recursive(n - 1, memo) + fibonacci_recursive(n - 2, memo)
-    return memo[n]
+        return memo[n]
 
 
 def generate_fibonacci_series(terms: int) -> list[int]:
