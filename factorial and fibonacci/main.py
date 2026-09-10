@@ -1,10 +1,7 @@
 """
-Programming Activity: Factorial and Fibonacci Series Using Python
-Objective: To apply Recursion
-
 This program displays a menu-driven interface allowing the user to:
-1. Compute the factorial of a positive integer (using recursion).
-2. Generate a Fibonacci series up to a specified number of terms (using recursion).
+1. Compute the factorial of a positive integer using recursion.
+2. Generate a Fibonacci series up to a specified number of terms using recursion.
 
 """
 
